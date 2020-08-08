@@ -1,11 +1,8 @@
-var playList = {blackEyePeas: "Boom Boom Pow"};
+var playlist = {blackEyePeas: "Boom Boom Pow"};
 
 function updatePlaylist(playlist, artistName, songTitle) {
   playlist[artistName] = songTitle;
   return playlist;
 }
 
-function removeFromPlaylist(playlist, artistName) {
-delete playlist.artistName;
-return playlist;
-}
+delete playlist.artisName;
